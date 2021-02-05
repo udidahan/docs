@@ -393,9 +393,6 @@ The `CodeAnalysisTreatWarningsAsErrors` property lets you configure whether code
 </PropertyGroup>
 ```
 
-> [!TIP]
-> Another way to enable .NET code analysis on projects that target .NET versions prior to .NET 5.0 is to set the [AnalysisLevel](#analysislevel) property to `latest`.
-
 ### EnforceCodeStyleInBuild
 
 > [!NOTE]
