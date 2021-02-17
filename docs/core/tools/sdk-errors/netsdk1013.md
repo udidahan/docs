@@ -16,9 +16,20 @@ The SDK tries to parse the values provided in the project file for `<TargetFrame
 To resolve this, check the spelling of your `TargetFramework` value from the list of [supported frameworks](../../../standard/frameworks.md).
 You can also set the `TargetFrameworkIdentifier` and `TargetFrameworkVersion` properties directly in your project file.
 
+~~~
 ```xml
 <PropertyGroup Condition="'$(TargetFrameworkIdentifier)' == ''">
   <TargetFrameworkIdentifier>.NETCOREAPP</TargetFrameworkIdentifier>
   <TargetFrameworkVersion>3.1</TargetFrameworkVersion>
 </PropertyGroup>
+```
+~~~
+
+```xml
+~~~
+<PropertyGroup Condition="'$(TargetFrameworkIdentifier)' == ''">
+  <TargetFrameworkIdentifier>.NETCOREAPP</TargetFrameworkIdentifier>
+  <TargetFrameworkVersion>3.1</TargetFrameworkVersion>
+</PropertyGroup>
+~~~
 ```
