@@ -66,7 +66,10 @@ DDD is a large topic with a rich set of resources for learning. You can start wi
 
 - **Julie Lerman and Steve Smith. Domain-Driven Design Fundamentals** \
   <https://bit.ly/PS-DDD>
-
+  
+- **Udi Dahan. Distributed Systems Design Fundamentals** \
+  <https://learn.particular.net/courses/distributed-systems-design-fundamentals-online>
+  
 >[!div class="step-by-step"]
 >[Previous](../multi-container-microservice-net-applications/implement-api-gateways-with-ocelot.md)
 >[Next](apply-simplified-microservice-cqrs-ddd-patterns.md)
